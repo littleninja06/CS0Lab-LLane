@@ -34,19 +34,18 @@ print("Hope you like my ASCII art...\n\n")
 
 line1: str = "   |\_/|          	*****************************     (\_/)"
 line2: str = " /  @  @ \      	*         ASCII Lab          *   (='.'=)"
-line3: str = "( >  0  < )              *       Lucas Lane           *  (')_(')"
 line4: str = "   >>x<<        	*         CSCI 110           *"
 line5: str = "  /  O  \       	*****************************"
 print(line1)
 print(line2)
-print(line3)
+print("( >  0  < )              *       Lucas Lane           *  (')_(')")
 print(line4)
 print(line5)
 
-# FIXME7: use variable to print the second line of the graphic
-# FIXME8: print the third line of the graphics
-# FIXME9: use variable to print the fourth line
-# FIXME10: use variable to print the fifth line
+# FIXME7: use variable to print the second line of the graphic #FIXED#
+# FIXME8: print the third line of the graphics #FIXED#
+# FIXME9: use variable to print the fourth line #FIXED#
+# FIXME10: use variable to print the fifth line #FIXED#
 # Note: You can add more lines or print more ASCII arts of your choice if you'd like...
 
 print("\nGood bye...  \n")
