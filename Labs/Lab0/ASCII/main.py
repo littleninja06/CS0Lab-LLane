@@ -2,8 +2,8 @@
     StdIO Lab
     ASCII Art - using literals and variables
     
-    Updated By: <Your name> #FIXME1
-    Date: ... #FIXME2
+    Updated By: Lucas Lane 
+    Date: 8/27/2024 
     
     This program produces an ASCII art on the console.
 
@@ -12,15 +12,19 @@
     2. Write a series of print statements to print the data/values to the console
 """
 
-print("Welcome to ASCII Art Program...\n")
+name: str = input("Welcome to ASCII Art Program...\n")
+print("Nice meeting you, " + name + "!")
 
-# FIXME3: prompt user to enter their name and store the value into name variable using input function
-# FIXME4: greet the name using the variable as the following output
+# FIXME3: prompt user to enter their name and store the value into name variable using input function #FIXED#
+# FIXME4: greet the name using the variable as the following output #FIXED#
 # must output: Nice meeting you, <name>!
 
 # prompt user to enter the semester and store the value into semester variable using input function
 semester: str = input("What semester is this [Fall/Spring]? ")
 print("This is " + semester + " semester.\n")
+
+year: str = input("What year is it?")
+print("This is " + year +" year.")
 
 # FIXME5: prompt user to enter the year and store the value into year variable using input function
 # FIXME6: print the year using the variable as the following output
