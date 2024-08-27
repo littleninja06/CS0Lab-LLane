@@ -30,7 +30,7 @@ print("Hope you like my ASCII art...\n\n")
 
 line1: str = "   |\_/|          	*****************************     (\_/)"
 line2: str = " /  @  @ \      	*         ASCII Lab          *   (='.'=)"
-line3: str = "( >  0  < )              *       <Your name>          *  (')_(')"
+line3: str = "( >  0  < )              *       Lucas Lane           *  (')_(')"
 line4: str = "   >>x<<        	*         CSCI 110           *"
 line5: str = "  /  O  \       	*****************************"
 print(line1)
