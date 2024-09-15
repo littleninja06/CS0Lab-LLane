@@ -11,8 +11,8 @@ Algorithm Steps:
 '''
 
 def solution(dif1, dif2, dif3, dif4, dif5, dif6):
-    #FIXME put your print statement here
-    pass # erase this once you print the solution
+    print("{} {} {} {} {} {}".format(dif1, dif2, dif3, dif4, dif5, dif6))
+    #FIXME put your print statement here print("You need {} king(s), {} queen(s), {} rook(s), {} bishop(s), {} knight(s), and {} pawn(s).".format(dif1, dif2, dif3, dif4, dif5, dif6)) #fixed#
 
 
 king, queen, rooks, bishops, knights, pawns = map(int, input().split())
@@ -26,7 +26,7 @@ req_pawns = 8
 
 # FIXMEs 3,4 make varibles for remaining pieces (2 knights, 8 pawns) #FIXED#
 
-dif1 = req_king- king
+dif1 = req_king-king
 dif2 = req_queen-queen
 dif3 = req_rooks-rooks
 dif4 = req_bishops-bishops
@@ -35,4 +35,5 @@ dif6 = req_pawns-pawns
 
 #FIXMEs 5,6: make dif5 and dif6  #FIXED#
 
-#FIXME 7: call solution function passing proper parameters
+#FIXME 7: call solution function passing proper parameters #fixed#
+solution(dif1, dif2, dif3, dif4, dif5, dif6)
