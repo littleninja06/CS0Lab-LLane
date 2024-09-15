@@ -5,5 +5,10 @@
 
 # Labs/Lab0/Functions/Functions.py
 | Status | Complete |
-|Self Grade | 100/100 |
+| Self Grade | 100/100 |
 | Notes | -I enjoyed the lab, and while working through it, I really felt that I was learning how everything works, and after completing it, I do not feel confused on anything. |
+
+# Labs/Lab0/Functions/Kattis_Bijele.py & Kattis_Bijele_Screenshot.png
+| Status | Complete |
+| Self Grade | 100/100 |
+| Notes | -It was a bit confusing on how Kattis interprets the code, but in the end I figured it out, and I feel as though I understand what happened and what I did.
