@@ -9,7 +9,14 @@
 
 # ASSIGNMENTS
 
-
+# Assignment 1
+| Name: ASCII Art - 4 Drawings |
+| Description: A program that draws 4 pieces of art out of characters. |
+| Due Date: Whenever my teacher grades it apparently! |
+| Status: Complete |
+| Location: /workspaces/CS0Lab_LLane/Assignments/Stdio/Stdio.py |
+| Self Grade: 100/100 |
+| Notes: Thought it was overdue, guess not. Completed and done well, with things like functions that wouldn't have been learned at the time this was assigned! |
 
 # LABS
 
