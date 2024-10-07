@@ -66,12 +66,13 @@ def hasDigit(phrase):
     # FIXME1: return True if phrase has at least 1 digit, false otherwise #FIXED#
     pass
 
+
 def hasSymbol(phrase):
     c = "~","!","@","#","$","%"
     findcharacters = phrase.rfind(c[len(phrase)])
     print(findcharacters)
-    for punctuation in range(len(phrase)):
-        if phrase[punctuation].findcharacters >= 0:
+    for findcharacters in range(len(phrase)):
+        if findcharacters >= 0:
             return True
         else:
             return False
