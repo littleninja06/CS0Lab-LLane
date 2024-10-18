@@ -73,3 +73,15 @@
 | Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Loops/Shapes.py |
 | Self Grade: 100/100 |
 | Notes: I figured out how to use loops efficiently and with regard to variables, as well as how to introduce variance into a repeating behavior. |
+
+# Lab 6
+| Name: Strings Lab |
+| Description: This program has you input a phrase, and the code will tell you whether or not that phrase meets a set of properties. |
+| Due Date: 10-10-24 |
+| Status: Complete |
+| Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Strings/Strings.py |
+| Self Grade: 100/100 |
+| Notes: N/A |
+
+# Lab 7
+| Name: Lists Lab |

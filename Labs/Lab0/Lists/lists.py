@@ -19,7 +19,7 @@ def getIntegers():
     i = 0
     while i < totalInts:
         num = int(input("Enter an integer: "))
-        # FIXME add num into integers list
+        # FIXME0 add num into integers list
         i += 1
     return intList
 
@@ -66,3 +66,5 @@ def main():
 # FIXME10 (20 points)
 # Call main function if this file is run as the main module
 print('call main() function to see partial outputs of the program...')
+
+main()

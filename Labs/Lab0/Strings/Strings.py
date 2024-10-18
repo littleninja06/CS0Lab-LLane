@@ -66,23 +66,15 @@ def hasDigit(phrase):
     # FIXME1: return True if phrase has at least 1 digit, false otherwise #FIXED#
     pass
 
-def findcharacters():
-    phrase.rfind(idea)
-
 def hasSymbol(phrase):
-    c = "~", "!", "@", "#", "$", "%"
-    d = str(c)
-    count = phrase.count(d)
-    print(count)
-    for c in range(len(phrase)):
-        if phrase[c].c:
+    c = "~!@#$%"
+    for ch in phrase:
+        if ch in c:
             return True
-        else:
-            return False
+    return False
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise 
     '''CODE CANNOT FIND THE SPECIAL CHARACTERS IN THE PHRASE'''
-    pass
 
 
 def main():
