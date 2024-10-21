@@ -20,27 +20,24 @@ def main():
     numbers = input().split()
     numbers = list( map(int, numbers) )
 
-    print(numbers) # verify we get our numbers
+    #print(numbers) # verify we get our numbers
 
     numbers.sort() # sort numbers list in ascending order
-    print(numbers)
+    #print(numbers)
 
-    tot_score = 0
+    tot_score = numbers[0]
     first_score = numbers[0]
     previous = numbers[0]
 
     for i in range(1, num_cards):
         if(numbers[i] == previous+1):
             pass
+            #tot_score += first_score
         else: # incremented by more than 1
-            tot_score += first_score
-            first_score = numbers[i]
-            print("Current score = ", tot_score)
-            print("New first_score = ", first_score)
+            tot_score += numbers[i]
+            #print("Current score = ", tot_score)
+            #print("New first_score = ", first_score)
 
-            if i == num_cards-1: # this is the last card and its more than 1 increment from last card
-                tot_score += numbers[i]
-                
         previous = numbers[i]
 
     print(tot_score)
