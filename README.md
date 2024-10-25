@@ -7,7 +7,9 @@
 | GitHub Username: | littleninja06 |
 | Repository | https://github.com/littleninja06/CS0Lab-LLane |
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ASSIGNMENTS
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Assignment 1
 | Name: ASCII Art - 4 Drawings |
@@ -18,7 +20,22 @@
 | Self Grade: 100/100 |
 | Notes: Thought it was overdue, guess not. Completed and done well, with things like functions that wouldn't have been learned at the time this was assigned! |
 
+
+# Assignment 2
+| Name: Area And Perimiter Of A Triangle |
+| Description: A program that takes inputs for the 3 sides of a triangle and displays both the area and perimiter of said triangle. |
+| Due Date: Whenever my teacher grades it apparently! |
+| Status: Incomplete |
+| Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Triangle/Triangle.py |
+| Self Grade: / |
+| Notes: |
+
+# Assignment 3
+| Name: 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Lab 0
 | Name: ASCII Art - using literals and variables |
