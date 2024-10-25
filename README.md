@@ -59,7 +59,12 @@
 
 # Assignment 6
 | Name: Strings - Avion |
-| Description: A program for the Kattis problem "Avion", which requires
+| Description: A program for the Kattis problem "Avion", which inputs a '1' if a code containing 'FBI' is in it. |
+| Due Date: 10-30-2024 |
+| Status: Incomplete |
+| Location: /workspaces/CS0Lab_LLane/Assignments/Avion/Avion.py |
+| Self Grade: / |
+| Notes: |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
@@ -131,8 +136,8 @@
 # Lab 7
 | Name: Lists Lab |
 | Description: This program has you input 10 numbers, then the code will sort them in ascending and descending order, then tell you where the biggest and smallest numbers were in the original list. |
-|Due Date: ??? |
+| Due Date: ??? |
 | Status: Complete |
 | Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Lists/lists.py |
-|Self Grade: 100/100 |
+| Self Grade: 100/100 |
 | Notes: N/A |
