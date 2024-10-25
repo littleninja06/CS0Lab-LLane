@@ -22,7 +22,7 @@
 
 
 # Assignment 2
-| Name: Area And Perimiter Of A Triangle |
+| Name: Triangle - Area And Perimiter Of A Triangle |
 | Description: A program that takes inputs for the 3 sides of a triangle and displays both the area and perimiter of said triangle. |
 | Due Date: Whenever my teacher grades it apparently! |
 | Status: Incomplete |
@@ -31,7 +31,35 @@
 | Notes: |
 
 # Assignment 3
-| Name: 
+| Name: Functions - A Basic Calculator Using Functions And Automated Unit Testing |
+| Description: A program that takes two numberical inputs and does a series of arithmatic operations on the two numbers. |
+| Due Date: Whenever my teacher grades it apparently! |
+| Status: Incomplete |
+| Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Functions/Functions_Homework.py |
+| Self Grade: / |
+| Notes: |
+
+# Assignment 4
+| Name: Conditionals |
+| Description: A program that finds the sum, product, max, min, and average of 5 given numbers. |
+| Due Date: Whenever my teacher grades it apparently! |
+| Status: Incomplete |
+| Location: /workspaces/CS0Lab_LLane/Assignments/Conditional/Conditional.py |
+| Self Grade: / |
+| Notes: |
+
+# Assignment 5
+| Name: Loops - Guess The Number Game |
+| Description: A program where a random number is picked between 1 and 20, and the user has to try and guess it, with the program telling them if the guessed under or over. |
+| Due Date: Wheneever my teacher grades it apparently! |
+| Status: Incomplete |
+| Location: /workspaces/CS0Lab_LLane/Assignments/Guess_Number/loop.py |
+| Self Grade: / |
+| Notes: |
+
+# Assignment 6
+| Name: Strings - Avion |
+| Description: A program for the Kattis problem "Avion", which requires
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS

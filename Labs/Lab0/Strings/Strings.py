@@ -73,8 +73,8 @@ def hasSymbol(phrase):
             return True
     return False
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
-    # return False otherwise 
-    '''CODE CANNOT FIND THE SPECIAL CHARACTERS IN THE PHRASE'''
+    # return False otherwise #FIXED#
+
 
 
 def main():
