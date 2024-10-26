@@ -6,8 +6,8 @@ Date: 9-28-2024
 I will be using this program to create 4 pieces of art out of computer characters.
 '''
 
-#Name = input("Hey there, what's your name?\n")
-#print("Hey, " + Name + "!\n")
+Name = input("Hey there, what's your name?\n")
+print("Hey, " + Name + "!\n")
 
 '''REMEMBER TO REMOVE HASHES AFTER PROGRAMMING IS DONE'''
 

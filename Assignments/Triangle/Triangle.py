@@ -28,4 +28,3 @@ area = str(ar)
 print("The sides given are "+ a +", " + b + ", and " +c+ ".")
 print("The perimiter of the triangle is equal to " +strperimeter+ ".")
 print("The area of the triangle is equal to "+area+".")
-
