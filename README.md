@@ -25,10 +25,10 @@
 | Name: Triangle - Area And Perimiter Of A Triangle |
 | Description: A program that takes inputs for the 3 sides of a triangle and displays both the area and perimiter of said triangle. |
 | Due Date: Whenever my teacher grades it apparently! |
-| Status: Incomplete |
+| Status: Complete |
 | Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Triangle/Triangle.py |
-| Self Grade: / |
-| Notes: |
+| Self Grade: 100/100 |
+| Notes: Felt like I coded it inneficiently just so I could print my variables without spaces, but its fine, and I got the code done. I wish I could have done the bonus, but I dont really care enough to learn how to prove a triangle exists lol. |
 
 # Assignment 3
 | Name: Functions - A Basic Calculator Using Functions And Automated Unit Testing |
