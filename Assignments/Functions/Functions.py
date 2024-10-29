@@ -15,3 +15,22 @@ Steps:
 9 - Call all of the functions
 10 - Create test cases, 7 of them.
 '''
+
+def addition():
+    added = num1 + num2
+    print(num1,"+", num2 ,"=", added)
+
+def multiplication():
+    multiplied = num1 * num2
+    print(num1, "X", num2, "=", multiplied)
+
+def division():
+    divided = num1 / num2
+    print(num1, "/", num2, "=", divided)
+
+num1 = int(input("Select the first number for the opperations."))
+num2 = int(input("Select the second number for the opperations."))
+
+addition()
+multiplication()
+division()
