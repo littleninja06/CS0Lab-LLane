@@ -28,6 +28,10 @@ def division():
     divided = num1 / num2
     print(num1, "/", num2, "=", divided)
 
+def subtraction():
+    subtracted = num1 - num2
+    print(num1, "-", num2, "=", subtracted)
+
 num1 = int(input("Select the first number for the opperations."))
 num2 = int(input("Select the second number for the opperations."))
 
