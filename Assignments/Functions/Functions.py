@@ -18,7 +18,7 @@ Steps:
 
 def addition():
     added = num1 + num2
-    print(num1,"+", num2 ,"=", added)
+    print(num1, "+", num2 ,"=", added)
 
 def multiplication():
     multiplied = num1 * num2
@@ -30,7 +30,20 @@ def division():
 
 def subtraction():
     subtracted = num1 - num2
-    print(num1, "-", num2, "=", subtracted)
+    print(num1, "-", num2, "=", subtracted) 
+
+def remainder():
+    remain = num1 % num2
+    print("The remainder of", num1, "/", num2, "is", remain)
+
+def exponentation():
+    exponent = num1 ** num2
+    print( num1, "to the power of", num2, "is", exponent)
+
+def squareroot():
+    lonenum = int(input("Pick a number to find the square root of."))
+    root = lonenum**.5
+    print("The square root of", lonenum, "is", root)
 
 num1 = int(input("Select the first number for the opperations."))
 num2 = int(input("Select the second number for the opperations."))
@@ -38,3 +51,7 @@ num2 = int(input("Select the second number for the opperations."))
 addition()
 multiplication()
 division()
+subtraction()
+remainder()
+exponentation()
+squareroot()
