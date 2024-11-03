@@ -34,10 +34,10 @@
 | Name: Functions - A Basic Calculator Using Functions And Automated Unit Testing |
 | Description: A program that takes two numberical inputs and does a series of arithmatic operations on the two numbers. |
 | Due Date: Whenever my teacher grades it apparently! |
-| Status: Incomplete |
+| Status: Complete |
 | Location: /workspaces/CS0Lab_LLane/Labs/Lab0/Functions/Functions_Homework.py |
-| Self Grade: / |
-| Notes: |
+| Self Grade: 100/100 |
+| Notes: Had trouble figuring out testing and had to rewrite alot of the code to make it work, but I figured it out. |
 
 # Assignment 4
 | Name: Conditionals |
