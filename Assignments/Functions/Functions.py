@@ -16,42 +16,68 @@ Steps:
 10 - Create test cases, 7 of them.
 '''
 
-def addition():
-    added = num1 + num2
-    print(num1, "+", num2 ,"=", added)
+def addition(a1, a2):
+    added = a1 + a2
+    print(a1, "+", a2 ,"=", added)
+    return added
 
-def multiplication():
-    multiplied = num1 * num2
-    print(num1, "X", num2, "=", multiplied)
+def multiplication(m1, m2):
+    multiplied = m1 * m2
+    print(m1, "X", m2, "=", multiplied)
+    return multiplied
 
-def division():
-    divided = num1 / num2
-    print(num1, "/", num2, "=", divided)
+def division(d1, d2):
+    divided = d1 / d2
+    print(d1, "/", d2, "=", divided)
+    return divided
 
-def subtraction():
-    subtracted = num1 - num2
-    print(num1, "-", num2, "=", subtracted) 
+def subtraction(s1, s2):
+    subtracted = s1 - s2
+    print(s1, "-", s2, "=", subtracted)
+    return subtracted
 
-def remainder():
-    remain = num1 % num2
-    print("The remainder of", num1, "/", num2, "is", remain)
+def remainder(r1, r2):
+    remain = r1 % r2
+    print("The remainder of", r1, "/", r2, "is", remain)
+    return remain
 
-def exponentation():
-    exponent = num1 ** num2
-    print( num1, "to the power of", num2, "is", exponent)
+def exponentation(e1, e2):
+    exponent = e1 ** e2
+    print( e1, "to the power of", e2, "is", exponent)
+    return exponent
 
-def squareroot():
-    lonenum = int(input("Pick a number to find the square root of."))
-    root = lonenum**.5
-    print("The square root of", lonenum, "is", root)
+def squareroot(sqrt):
+    root = sqrt**.5
+    print("The square root of", sqrt, "is", root)
+    return root
 
-num1 = int(input("Select the first number for the opperations."))
-num2 = int(input("Select the second number for the opperations."))
+def test():
+    assert(addition(6, 3) == 9)
+    assert(addition(1000, 342) == 1342)
+    assert(multiplication(5, 6) == 30)
+    assert(multiplication(1, 0) == 0)
+    assert(division(0, 1) == 0)
+    assert(division(1, 1000) == .001)
+    assert(subtraction(1, 2) == -1)
+    assert(subtraction(999, 999) == 0)
+    assert(remainder(17, 5) == 2)
+    assert(remainder(10, 2) == 0)
+    assert(exponentation(3, 4) == 81)
+    assert(exponentation(2, 0) == 1)
+    assert(squareroot(4) == 2)
+    assert(squareroot(1) == 1)
+    print("All tests passed!")
 
-addition()
-multiplication()
-division()
-subtraction()
-remainder()
-exponentation()
-squareroot()
+test()
+
+num1 = int(input("Select the first number for the operations."))
+num2 = int(input("Select the second number for the operations."))
+square = int(input("Pick a number to find the square root of."))
+
+addition(num1, num2)
+multiplication(num1, num2)
+division(num1, num2)
+subtraction(num1, num2)
+remainder(num1, num2)
+exponentation(num1, num2)
+squareroot(square)
