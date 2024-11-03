@@ -43,10 +43,10 @@
 | Name: Conditionals |
 | Description: A program that finds the sum, product, max, min, and average of 5 given numbers. |
 | Due Date: Whenever my teacher grades it apparently! |
-| Status: Incomplete |
+| Status: Complete |
 | Location: /workspaces/CS0Lab_LLane/Assignments/Conditional/Conditional.py |
-| Self Grade: / |
-| Notes: |
+| Self Grade: 100/100 |
+| Notes: Had trouble figuring out how to find the greastest or smallest number, but I figured it out with a different perspective.|
 
 # Assignment 5
 | Name: Loops - Guess The Number Game |

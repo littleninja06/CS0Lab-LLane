@@ -13,7 +13,7 @@ Steps:
 7 - Create a function to find the square root of a number. (Inputed in the function)
 8 - Create inputs for the two numbers
 9 - Call all of the functions
-10 - Create test cases, 7 of them.
+10 - Create test cases, 2 per function.
 '''
 
 def addition(a1, a2):
