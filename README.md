@@ -52,10 +52,10 @@
 | Name: Loops - Guess The Number Game |
 | Description: A program where a random number is picked between 1 and 20, and the user has to try and guess it, with the program telling them if the guessed under or over. |
 | Due Date: Wheneever my teacher grades it apparently! |
-| Status: Incomplete |
+| Status: Complete |
 | Location: /workspaces/CS0Lab_LLane/Assignments/Guess_Number/loop.py |
-| Self Grade: / |
-| Notes: |
+| Self Grade: 100/100 |
+| Notes: No notes.|
 
 # Assignment 6
 | Name: Strings - Avion |
