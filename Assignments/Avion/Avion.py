@@ -11,3 +11,32 @@ Steps:
 5: Create 3 test functions to ensure that the code is working properly.
 6: Ensure that any input functions dont have any text in them such that the code is compatible with Kattis.
 '''
+
+blimp1 = input()
+blimp2 = input()
+blimp3 = input()
+blimp4 = input()
+blimp5 = input()
+
+def findfbi():
+    r1 = ""
+    r2 = ""
+    r3 = ""
+    r4 = ""
+    r5 = ""
+    if "FBI" in blimp1:
+        r1 == 1
+    if "FBI" in blimp2:
+        r2 == 2
+    if "FBI" in blimp3:
+        r3 == 3
+    if "FBI" in blimp4:
+        r4 == 4
+    if "FBI" in blimp5:
+        r5 ==5
+    else:
+        print("HE GOT AWAY!")
+    
+    print(r1,r2,r3,r4,r5)
+
+findfbi()
