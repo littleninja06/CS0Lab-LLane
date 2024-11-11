@@ -10,8 +10,6 @@ Program prompts user to enter a phrase and tells the user various properties abo
 
 import sys
 
-import string
-
 def isReversible(phrase):
     # Function to determine whether given phrase is same forward and backward, i.e.,
     # reversible or not.
