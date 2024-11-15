@@ -12,30 +12,46 @@ Steps:
 6: Ensure that any input functions dont have any text in them such that the code is compatible with Kattis.
 '''
 
-blimp1 = input()
-blimp2 = input()
-blimp3 = input()
-blimp4 = input()
-blimp5 = input()
 
-allblimps = blimp1 + blimp2 + blimp3 + blimp4 + blimp5
 
-def findfbi():
+def findfbi(b1, b2, b3, b4, b5):
+
+    allblimps = b1 + b2 + b3 + b4 + b5
+
     if "FBI" in allblimps:
         lines = ""
-        if "FBI" in blimp1:
+        if "FBI" in b1:
             lines += "1 "
-        if "FBI" in blimp2:
+        if "FBI" in b2:
             lines += "2 "
-        if "FBI" in blimp3:
+        if "FBI" in b3:
             lines += "3 "
-        if "FBI" in blimp4:
+        if "FBI" in b4:
             lines += "4 "
-        if "FBI" in blimp5:
+        if "FBI" in b5:
             lines += "5 "
         print(lines)
+        return lines
     else:
         print("HE GOT AWAY!")
+        return "HE GOT AWAY!"
 
-findfbi()
+def test():
+    
+    assert(findfbi("ASFB-UI", "FBI-78", "CI-A-U21", "COMFBI", "GR-E-E7") == "2 4 "), f"Expected: 2 4 , But got {findfbi("ASFB-UI", "FBI-78", "CI-A-U21", "COMFBI", "GR-E-E7")}"
+    assert(findfbi("Greatscott", "A", "FBI", "CFIRS-FBI", "FEBI") == "3 4 "), f"Expected: 3 4 5 , But got {findfbi("Greatscott", "A", "FBI", "CFIRS-FBI", "FEBI")}"
+    assert(findfbi("SANJI", "USOPP", "ZORO", "LUFFY", "NAMI") == "HE GOT AWAY!"), f"Expected: HE GOT AWAY!, But got {findfbi("SANJI", "USOPP", "ZORO", "LUFFY", "NAMI")}"
+    return print("All tests passed!")
+
+test()
+
+b1 = input()
+b2 = input()
+b3 = input()
+b4 = input()
+b5 = input()
+    
+findfbi(b1, b2, b3, b4, b5)
+
+
 
