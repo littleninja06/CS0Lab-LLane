@@ -61,10 +61,10 @@
 | Name: Strings - Avion |
 | Description: A program for the Kattis problem "Avion", which inputs a '1' if a code containing 'FBI' is in it. |
 | Due Date: 10-30-2024 |
-| Status: Incomplete |
+| Status: Complete |
 | Location: /workspaces/CS0Lab_LLane/Assignments/Avion/Avion.py |
-| Self Grade: / |
-| Notes: |
+| Self Grade: 100/100 |
+| Notes: Had to reformat my code to get the assert functions to work, otherwise no notes.|
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
