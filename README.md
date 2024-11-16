@@ -66,6 +66,15 @@
 | Self Grade: 100/100 |
 | Notes: Had to reformat my code to get the assert functions to work, otherwise no notes.|
 
+# Assignment 7
+| Name: Simon Says |
+| Description: A program for the Kattis problem "Simon says", designed to detect whether inputs start with simon says. If it does, it outputs the rest of the line. |
+| Due Date: Not listed |
+| Status: Incomplete |
+| Location: /workspaces/CS0Lab_LLane/Assignments/Simonsays/Simonsays.py |
+| Self Grade: / |
+| Notes: |
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
