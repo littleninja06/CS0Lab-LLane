@@ -1,11 +1,11 @@
 # CS0-littleninja06
-| Basic Info | My actual name is Lucas, this is just an old gamertag that carried over with my email. | \
-| Course: | CSCI110L - Beginning Programing: Python | \
-| Semester: | Fall 2024 | \
-| Instructor: | Corin Chepko | \
-| Mav Username: | lrlane | \
-| GitHub Username: | littleninja06 | \
-| Repository | https://github.com/littleninja06/CS0Lab-LLane | \
+| Basic Info | My actual name is Lucas, this is just an old gamertag that carried over with my email. |    return
+| Course: | CSCI110L - Beginning Programing: Python |    return
+| Semester: | Fall 2024 |     return
+| Instructor: | Corin Chepko |    return
+| Mav Username: | lrlane |   return
+| GitHub Username: | littleninja06 |   return
+| Repository | https://github.com/littleninja06/CS0Lab-LLane |    return
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ASSIGNMENTS
