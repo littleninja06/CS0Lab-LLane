@@ -46,7 +46,7 @@
 | Status: Complete | <br>
 | Location: /workspaces/CS0Lab_LLane/Assignments/Conditional/Conditional.py | <br>
 | Self Grade: 100/100 | <br>
-| Notes: Had trouble figuring out how to find the greastest or smallest number, but I figured it out with a different perspective.| <br>
+| Notes: Had trouble figuring out how to find the greastest or smallest number, but I figured it out with a different perspective. | <br>
 
 # Assignment 5
 | Name: Loops - Guess The Number Game | <br>
@@ -55,7 +55,7 @@
 | Status: Complete | <br>
 | Location: /workspaces/CS0Lab_LLane/Assignments/Guess_Number/loop.py | <br>
 | Self Grade: 100/100 | <br>
-| Notes: No notes.| <br>
+| Notes: No notes. | <br>
 
 # Assignment 6
 | Name: Strings - Avion | <br>
@@ -64,7 +64,7 @@
 | Status: Complete | <br>
 | Location: /workspaces/CS0Lab_LLane/Assignments/Avion/Avion.py | <br>
 | Self Grade: 100/100 | <br>
-| Notes: Had to reformat my code to get the assert functions to work, otherwise no notes.| <br>
+| Notes: Had to reformat my code to get the assert functions to work, otherwise no notes. | <br>
 
 # Assignment 7
 | Name: Simon Says | <br>
