@@ -18,9 +18,6 @@ def Simonsays(simon):
         return command
     else:
         return
-    
-
-
 
 def test():
     assert(Simonsays("Simon says commit crime.") == "commit crime."), f'Expected: "commit crime.", but got: {Simonsays("Simon says commit crime.")}.'
