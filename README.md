@@ -70,8 +70,18 @@
 | Name: Simon Says | <br>
 | Description: A program for the Kattis problem "Simon says", designed to detect whether inputs start with simon says. If it does, it outputs the rest of the line. | <br>
 | Due Date: Not listed | <br>
-| Status: Incomplete | <br>
+| Status: Complete | <br>
 | Location: /workspaces/CS0Lab_LLane/Assignments/Simonsays/Simonsays.py | <br>
+| Self Grade: 100/100 | <br>
+| Notes: Had some issues with test functions, so I couldnt test for a non simon says input as I wanted to, but its whatever. | <br>
+
+# Assignent 8
+| Name: Falling Apart | <br>
+| Description: A program for the Kattis problem "Falling Apart", designed to take an input for an amount of integers, then an input for each integer, then sort them by 
+largest to smallest, then add together the integers into two alternating pairs for the output. | <br>
+| Due Date: Could not be found | <br>
+| Status: Incomplete | <br>
+| Location: /workspaces/CS0Lab_LLane/Assignments/Fallingapart/Fallingapart.py | <br>
 | Self Grade: / | <br>
 | Notes: | <br>
 
