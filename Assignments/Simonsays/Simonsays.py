@@ -14,20 +14,28 @@ def Simonsays(simon):
     if "Simon says" in simon:
         length = int(len(simon))
         print(simon[11:length])
+        command = simon[11:length]
+        return command
+    else:
+        return
+    
 
 
 
 def test():
     assert(Simonsays("Simon says commit crime.") == "commit crime."), f'Expected: "commit crime.", but got: {Simonsays("Simon says commit crime.")}.'
-    assert(Simonsays() == "")
+    assert(Simonsays("Simon says do the flop") == "do the flop")
+    assert(Simonsays("Simon says goodbye.") == "goodbye.")
+    print("All tests passed!")
 
-
+test()
 
 loop = int(input())
 i = 0
 
 while i < loop:
     simon = input()
-    Simonsays(simon)
+    if simon == simon:
+        Simonsays(simon)
     i += 1
 
