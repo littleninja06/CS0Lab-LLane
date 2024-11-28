@@ -14,13 +14,7 @@ REMEMBER TO FORMAT FUNCTIONS TO BE ABLE TO BE TESTED BY ASSERT FUNCTIONS
 '''
 
 def main():
-
-    amount = int(input())
-
-    if 1 <= amount <= 15:
-        numlist = list(map(int, input().split()))
         numlist.sort(reverse=True)
-        #print(numlist)
         Bob = 0
         Alice = 0
         runs = 1
@@ -34,5 +28,25 @@ def main():
                     Alice += numlist[i]
                     runs += 1
         print(Alice, Bob)
+        return Alice, Bob
+
+def test():
+    global amount
+    global numlist
+    amount = 4
+    numlist = [7, 9, 2, 3]
+    assert(main() == (12, 9)), f'Expected: (12, 9), but got {main()}'
+    amount = 3
+    numlist = [54, 3, 2]
+    assert(main() == (56, 3))
+    amount = 4
+    numlist = [1, 1, 1, 1]
+    assert(main() == (2, 2))
+    print("All tests passed!")
+
+test()
+
+amount = int(input())
+numlist = list(map(int, input().split()))
 
 main()
