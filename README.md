@@ -80,10 +80,10 @@
 | Description: A program for the Kattis problem "Falling Apart", designed to take an input for an amount of integers, then an input for each integer, then sort them by 
 largest to smallest, then add together the integers into two alternating pairs for the output. | <br>
 | Due Date: Could not be found | <br>
-| Status: Incomplete | <br>
+| Status: Complete | <br>
 | Location: /workspaces/CS0Lab_LLane/Assignments/Fallingapart/Fallingapart.py | <br>
-| Self Grade: / | <br>
-| Notes: | <br>
+| Self Grade: 100/100 | <br>
+| Notes: Took a bit since I had a strange solution that worked but Kattis didnt accept, but got there in the end with some help. | <br>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
