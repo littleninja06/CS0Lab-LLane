@@ -18,24 +18,21 @@ def main():
     amount = int(input())
 
     if 1 <= amount <= 15:
-        numlist = []
-        nums = input()
-        nums = nums.split(" ", amount)
-        numlist = list(nums)
+        numlist = list(map(int, input().split()))
         numlist.sort(reverse=True)
+        #print(numlist)
         Bob = 0
         Alice = 0
         runs = 1
         while runs <= amount:
-            for i in numlist:
+            for i in range(amount):
                 i = int(i)
-                if 1 <= i <= 100:
-                    if runs % 2 == 0:
-                        Bob = Bob + i
-                        runs += 1
-                    else:
-                        Alice = Alice + i
-                        runs += 1
+                if runs % 2 == 0:
+                    Bob += numlist[i]
+                    runs += 1
+                else:
+                    Alice += numlist[i]
+                    runs += 1
         print(Alice, Bob)
 
 main()
