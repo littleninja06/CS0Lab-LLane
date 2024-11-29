@@ -85,6 +85,15 @@ largest to smallest, then add together the integers into two alternating pairs f
 | Self Grade: 100/100 | <br>
 | Notes: Took a bit since I had a strange solution that worked but Kattis didnt accept, but got there in the end with some help. | <br>
 
+# Assignment 9 
+| Name: A new alphabet | <br>
+| Description: A program for the Kattis problem "A new alphabet", which takes an input whos characters from the english alphabet are converted into a form of leettext, and outputs the input in the new alphabet. | <br>
+| Due Date: Could not be found | <br>
+| Status: Complete | <br>
+| Location: /workspaces/CS0Lab_LLane/Assignments/Newalphabet/newalphabet.py | <br>
+| Self Grade: 100/100 | <br>
+| Notes: N/A | <br>
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
