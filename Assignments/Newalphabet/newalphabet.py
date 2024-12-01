@@ -9,7 +9,7 @@ Steps:
 5: Run the function.
 '''
 
-newalpha ={
+newalpha = {
     'a':"@",
     'b':"8",
     'c':"(", 'd':"|)",
