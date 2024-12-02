@@ -94,6 +94,13 @@ largest to smallest, then add together the integers into two alternating pairs f
 | Self Grade: 100/100 | <br>
 | Notes: N/A | <br>
 
+# Final
+| Name: Hangman | <br>
+| Description: A program that simulates the well known game "Hangman". | <br>
+| Due Date: 12/2/24 | <br>
+| Status: Complete! | <br>
+| Location: /workspaces/CS0Lab_LLane/Assignments/Final/final.py | <br>
+| Self Grade: 100/100 | <br>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # LABS
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
