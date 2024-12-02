@@ -1,6 +1,9 @@
 '''
 --- CS0 Final: Hangman ---
 This final project is to make a hangman game.
+Steps:
+1: Make the code.
+2: Profit.
 '''
 
 import pathlib
@@ -20,7 +23,6 @@ def fail0():
     print("|            ")
     print("|            ")
     print("|____________")
-
 
 def fail1():
     print("______________")
@@ -101,7 +103,6 @@ def fail6():
     print("|            ")
     print("|____________")
 
-
 print("Let's play hangman! Try and guess the word one letter at a time!")
 
 my_path = pathlib.Path(__file__).parent.resolve()
@@ -120,6 +121,7 @@ def pickrandom():
     return chosen_word
 
 def hangman(phrase):
+    progress = 0
     attempt = 0
     underscore = []
     one = 0
@@ -130,8 +132,12 @@ def hangman(phrase):
         one += 1
     length = len(phrase)
     test = underscore
+    print("".join(test))
     while attempt < 6:
         guess = input("Guess a letter!").lower()
+        if len(guess) > 1:
+            print("Your guess has to be one character, try again!")
+            guess = input("Guess a letter!").lower()
         runs = 0
         while runs < length:
             if new_underscore[runs - 1] == phrase[runs - 1]:
@@ -145,8 +151,6 @@ def hangman(phrase):
                     new_underscore[runs - 1] = "_"
                     runs += 1
         runs = 0
-        print(test)
-        print(new_underscore)
         if new_underscore == phrase:
             if attempt == 0:
                 fail0()
@@ -160,7 +164,8 @@ def hangman(phrase):
                 fail4()
             if attempt == 5:
                 fail5()
-            print("congratulations! You guessed the word in time!")
+            progress += 1
+            print("congratulations! You guessed the word in", progress, "tries!")
             shown = "".join(new_underscore)
             print(shown)
             attempt = 7
@@ -180,6 +185,7 @@ def hangman(phrase):
                 if attempt == 5:
                     fail5()
                 print("There are no "+guess+"'s, try again!")
+                progress += 1
                 shown = "".join(new_underscore)
                 print(shown)
             else:
@@ -196,13 +202,13 @@ def hangman(phrase):
                 if attempt == 5:
                     fail5()
                 print(guess+" is in the word!")
+                progress += 1
                 test = copy.deepcopy(new_underscore)
                 shown = "".join(new_underscore)
                 print(shown)
     if attempt == 6:
         fail6()
         print("You failed! The word was "+answer+".")
-
 
 Continue = "Y"
 while Continue == "Y" or Continue == "y":
